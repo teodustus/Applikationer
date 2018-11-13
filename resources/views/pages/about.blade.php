@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="container">
     <h1> about </h1>
         @if(count($about)>0)
             <ul class="list-group">

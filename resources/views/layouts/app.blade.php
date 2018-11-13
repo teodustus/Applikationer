@@ -8,8 +8,11 @@
         <title>{{config('app.name')}}</title> 
     </head>
     <body>
-        @include('inc.navbar')
-        <div class="container" style="margin-top: 50px">
+            <div class="container">
+                @include('inc.messages')
+      
+     
+                @include('inc.navbar')
                 @yield('content')
         </div>
        
